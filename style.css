@@ -17,12 +17,13 @@ h3{
 .top{
     width: 100%;
     padding-bottom: 5%;
-    background-image: url("images/top-banner.png");
+    background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    height: 610px;
 }
 .top_left{
     width: 40%;
-    height: 500px;
+    height: 100%;
     margin-left: 5%;
     padding-left: 3%;
     float: left;
@@ -30,14 +31,17 @@ h3{
 }
 .top_right{
     width: 40%;
-    overflow: hidden;
+    height: 100%;
+    margin-left: 5%;
     padding-left: 5%;
+    overflow: hidden;
 }
 .top_right img{
     width: 100%;
 }
 .name{
     color: #FFA500;
+    font-size: 40px;
 }
 p{
     font-family: 'Open Sans', sans-serif;
@@ -55,14 +59,14 @@ p{
 }
 .middle{
     width: 100%;
-    padding-bottom: 5%;
+    height: 610px;
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
 }
 .middle_left{
     width: 40%;
-    height: 500px;
+    height: 100%;
     margin-left: 5%;
     padding-left: 3%;
     float: left;
@@ -71,9 +75,50 @@ p{
     width: 100%;
 }
 .middle_right{
+    width: 39%;
+    height: 80%;
+    margin-left: 5%;
+    padding-left: 3%;
+    float: left;
+    padding-top: 3%;
+}
+
+.bottom{
+    height: 400px;
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.bottom h1{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+.bottom_divs{
     width: 40%;
-    overflow: hidden;
-    padding-left: 5%;
-    height: 500px;
-    padding-top: 5%;
+    float: left;
+    height: 70%;
+    margin-left: 4.5%;
+    box-shadow: 10px 10px 40px grey;
+    padding-left: 2%;
+    border-radius: 5px;
+}
+
+.bottom_divs h3{
+    color: #FFA500;
+}
+
+.left_side{
+    border-left: 7px solid;
+    border-image: linear-gradient(lightsalmon, tomato);
+    border-image-slice: 1;
+}
+.right_side{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 14px;
 }

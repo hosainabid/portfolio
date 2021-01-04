@@ -4,8 +4,76 @@ body{
 
 h1{
     font-family: 'Audiowide', cursive;
+    font-size: 45px;
+}
+h2{
+    font-family: 'Audiowide', cursive;
+    font-size: 35px;
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+}
+.top{
+    width: 100%;
+    padding-bottom: 5%;
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+.top_left{
+    width: 40%;
+    height: 500px;
+    margin-left: 5%;
+    padding-left: 3%;
+    float: left;
+    padding-top: 5%;
+}
+.top_right{
+    width: 40%;
+    overflow: hidden;
+    padding-left: 5%;
+}
+.top_right img{
+    width: 100%;
 }
 .name{
     color: #FFA500;
+}
+p{
     font-family: 'Open Sans', sans-serif;
+    line-height: 28px;
+}
+.link_button{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    color: white;
+    padding: 9px 17px;
+    border-radius: 5px;
+}
+.middle{
+    width: 100%;
+    padding-bottom: 5%;
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.middle_left{
+    width: 40%;
+    height: 500px;
+    margin-left: 5%;
+    padding-left: 3%;
+    float: left;
+}
+.middle_left img{
+    width: 100%;
+}
+.middle_right{
+    width: 40%;
+    overflow: hidden;
+    padding-left: 5%;
+    height: 500px;
+    padding-top: 5%;
 }

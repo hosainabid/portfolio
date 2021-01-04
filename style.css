@@ -1,11 +1,11 @@
 body{
     margin: 0;
-    font-family: 'Audiowide', cursive;
 }
 
 h1{
-    
+    font-family: 'Audiowide', cursive;
 }
 .name{
     color: #FFA500;
+    font-family: 'Open Sans', sans-serif;
 }

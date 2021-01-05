@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+}
+section{
+    height: 600px;
+    padding-bottom: 120px;
+}
+h1{
+    font-family: 'Audiowide', cursive;
+    font-size: 45px;
+}
+h2{
+    font-family: 'Audiowide', cursive;
+    font-size: 40px;
+}
+h3{
+    font-family: 'Ubuntu', sans-serif;
+}
+p{
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 27px;
+    color: dimgray;
+    font-size: 18px;
+}
+.pad{
+    padding-bottom: 8px;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    color: white;
+    padding: 12px 30px;
+    font-family: 'Ubuntu';
+}
+.top{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;    
+}
+.half_width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.orange{
+    color: #FFA500;
+}
+.half_width img{
+    width: 100%;
+}
+.middle{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.bottom{
+    height: 500px;
+    padding-bottom: 0px;
+}
+.bottom h2{
+    text-align: center;
+}
+.bottom .half_width h2{
+    text-align: left;
+}
+#bottom_left{
+    width: 35%;
+    margin-left: 6%;
+    padding-left: 4%;
+    height: 65%;
+    box-shadow: 5px 7px 40px dimgrey;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+#bottom_right{
+    width: 35%;
+    margin-left: 5%;
+    padding-left: 4%;
+    height: 65%;
+    box-shadow: 5px 7px 40px dimgrey;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#bottom_left h3{
+    color: #FFA500;
+}
+
+#bottom_right h3{
+    color: #FFA500;
+}
+footer p{
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
